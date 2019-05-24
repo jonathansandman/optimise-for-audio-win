@@ -32,7 +32,7 @@ REGEDIT /s "%~dp0/reg/adjust_for_best_performance_of_background_services.reg"
 echo Adjusted for best performance of Background Services.
 REGEDIT /s "%~dp0/reg/adjust_visual_effects_for_best_performance.reg"
 echo Adjusted Visual Effects for best performance.
-REGEDIT /s "%~dp0/reg/disabled_paging.reg"
+REGEDIT /s "%~dp0/reg/disable_paging.reg"
 echo Disabled paging.
 
 echo.
