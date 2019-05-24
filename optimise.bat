@@ -92,11 +92,21 @@ echo Disabled background applications.
 @sc config "WSearch" start=disabled
 echo Disabled search indexing.
 
+@sc config "Name of Service" start= disabled
+@sc stop "Name of Service"
+
 @reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 echo Disabled UAC.
 
 @wmic path Win32_PNPEntity where "caption like '%bluetooth%' AND DeviceID like 'USB\\%'" call disable
 echo Disabled Bluetooth adapters.
+
+net stop wuauserv
+sc config wuauserv start=disabled
+echo Disabled Windows update service.
+
+REGEDIT /s "%~dp0/reg/disable_automatic_updates.reg"
+echo Disabled automatic updates.
 
 echo.
 echo Congrats. Audio will now pass flawlessly.
