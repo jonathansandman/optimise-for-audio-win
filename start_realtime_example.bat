@@ -1,1 +1,1 @@
-realtime.bat C:\Windows\notepad.exe
+start_realtime.bat C:\Windows\notepad.exe
