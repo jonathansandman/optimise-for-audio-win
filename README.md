@@ -15,42 +15,44 @@ For example:
 
 If you don't have administrator priviledges, you will recieve a prompt.
 
-## Automated configuration
+> Warning: running this script will remove your existing Power Configurations
 
-### Power
-* Selects the High Performance power plan
-* Sets sleep and hibernation options to 'Never'
+# What does it do?
+
+## Power
+* Adds a custom, high performance power plan
+* Set sleep and hibernation options to 'Never'
 * Disabled hard disk and USB suspend
 
-### Performance
-* Sets processing scheduling to 'Background Services'
-* Disables Visual Effects
-* Turns off paging
+## Performance
+* Set processing scheduling to 'Background Services'
+* Disable Visual Effects
+* Turn off paging
 
-### Network
-* Disables all WiFi adapters
-* Disables Flow Control and Interrupt Moderation
+## Network
+* Disable all WiFi adapters
+* Disable Flow Control and Interrupt Moderation
 * Disable Nagle's algorithm
 
-### Miscellaneous
+## Miscellaneous
 * Disables system sounds
 * Disables Windows background apps
 * Disables User Account Control
 * Disables Bluetooth adapters
+* Disables automatic Windows Updates
 * TODO: Disable 'Windows updates from more than one place'
-* TODO: Disable automatic Windows Updates
 
-## Manual configuration
+# What next?
 
-### BIOS
+## BIOS
 * Disabled Fast Boot/Fast Startup
 * Disaabled C-state transitions, Turbo Boost and SpeedStep
 * Disable hyper-threading
 * Disable spread sprectrum
 
-### Audio drivers
+## Audio drivers
 * Set bufer size to the highest possible settings
 
-### Network audio (i.e. Dante) drivers
+## Network audio (i.e. Dante) drivers
 * Set the ASIO latency to the highest possible setting
 * Set the network audio driver latency to the highest possiblesetting
