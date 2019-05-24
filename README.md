@@ -1,5 +1,19 @@
 # optimise-for-audio-win
-A script for optimising Windows 10 for real-time and network audio 
+A collection of scripts for optimising Windows 10 for real-time and network audio
+
+# optimise.bat
+To optimise Windows for real-time audio, simply run 'optimise.bat'.
+
+# start_realtime.bat
+To automatically start a process with real-time priority, run:
+
+`start_realtime.bat <path_to_app_without_quotes>`
+
+For example:
+
+`start_realtime.bat C:\Windows\notepad.exe`
+
+If you don't have administrator priviledges, you will recieve a prompt.
 
 ## Automated configuration
 
@@ -30,7 +44,7 @@ A script for optimising Windows 10 for real-time and network audio
 
 ### BIOS
 * Disabled Fast Boot/Fast Startup
-* Disaabled C-State transitions, Turbo Boost and SpeedStep
+* Disaabled C-state transitions, Turbo Boost and SpeedStep
 * Disable hyper-threading
 * Disable spread sprectrum
 
