@@ -42,7 +42,7 @@ echo [ POWER ]
 echo Restoring default power configurations...
 powercfg -restoredefaultschemes
 
-for /f "tokens=2,4 delims=:()" %%G in ('powercfg /import "%~dp0/ssl.pow"') do (
+for /f "tokens=2,4 delims=:()" %%G in ('powercfg /import "%~dp0/config.pow"') do (
 	set high_performance_schema=%%G
 )
 
