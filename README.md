@@ -1,8 +1,9 @@
 # optimise-for-audio-win
 A collection of scripts for optimising Windows 10 for real-time and network audio
+> Warning: these scripts edit values in the registry. I recommnend [backing up your registry](https://support.microsoft.com/en-gb/help/322756/how-to-back-up-and-restore-the-registry-in-windows) first.
 
 # optimise.bat
-> Warning: running this script will remove your existing Power Configurations
+> Warning: running this script will remove your existing Power Configurations.
 
 To optimise Windows for real-time audio, simply run 'optimise.bat'.
 
@@ -46,7 +47,9 @@ If you don't have administrator priviledges, you will recieve a prompt.
 
 ## BIOS
 * Disable Fast Boot/Fast Startup
-* Disable C-state transitions, Turbo Boost and SpeedStep
+* Disable C-state transitions
+* Disable Turbo Boost
+* Disable SpeedStep
 * Disable hyper-threading
 * Disable spread sprectrum
 
