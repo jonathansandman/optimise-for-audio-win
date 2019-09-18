@@ -23,7 +23,7 @@ If you don't have administrator priviledges, you will recieve a prompt.
 The scripts provided are designed to automate some of the things that you can do to try and improve the performance of real-time and network audio. """optimise.bat""" script performs the following actions:
 
 ## Power
-* Adds a custom, high performance power plan
+* Add a custom, high performance power plan
 * Set sleep and hibernation options to 'Never'
 * Disable hard disk and USB suspend
 
@@ -38,11 +38,11 @@ The scripts provided are designed to automate some of the things that you can do
 * Disable Nagle's algorithm
 
 ## Miscellaneous
-* Disables system sounds
-* Disables Windows background apps
-* Disables User Account Control
-* Disables Bluetooth adapters
-* Disables automatic Windows Updates
+* Disable system sounds
+* Disable Windows background apps
+* Disable User Account Control
+* Disable Bluetooth adapters
+* Disable automatic Windows Updates
 * *TODO: Disable 'Windows updates from more than one place'*
 
 # What else can I do?
