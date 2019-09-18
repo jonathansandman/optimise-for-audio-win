@@ -1,5 +1,5 @@
 # optimise-for-audio-win
-A collection of scripts for optimising Windows 10 for real-time and network audio
+A collection of scripts for optimising Windows 10 for real-time and network audio.
 > Warning: these scripts edit values in the registry. I recommnend [backing up your registry](https://support.microsoft.com/en-gb/help/322756/how-to-back-up-and-restore-the-registry-in-windows) first.
 
 # optimise.bat
@@ -20,10 +20,12 @@ If you don't have administrator priviledges, you will recieve a prompt.
 
 # What does the script do?
 
+The scripts provided are designed to automate some of the things that you can do to try and improve the performance of real-time and network audio. """optimise.bat""" script performs the following actions:
+
 ## Power
 * Adds a custom, high performance power plan
 * Set sleep and hibernation options to 'Never'
-* Disabled hard disk and USB suspend
+* Disable hard disk and USB suspend
 
 ## Performance
 * Set processing scheduling to 'Background Services'
@@ -41,9 +43,11 @@ If you don't have administrator priviledges, you will recieve a prompt.
 * Disables User Account Control
 * Disables Bluetooth adapters
 * Disables automatic Windows Updates
-* TODO: Disable 'Windows updates from more than one place'
+* *TODO: Disable 'Windows updates from more than one place'*
 
 # What else can I do?
+
+Some of the steps to better audio performance can't be automated. You can perform the following changes manually to try and improve performance:
 
 ## BIOS
 * Disable Fast Boot/Fast Startup
@@ -60,9 +64,9 @@ If you don't have administrator priviledges, you will recieve a prompt.
 * Set the ASIO latency to the highest possible setting
 * Set the network audio driver latency to the highest possible setting
 
-# Further reading:
+# Further reading
 
-The scripts here are derived from information from the following resources:
+The recommend changes here are based on the following resources:
 
 * [Serato - PC Optimization Guide for Windows](https://support.serato.com/hc/en-us/articles/203057850-PC-Optimization-Guide-for-Windows-8)
 * [Focusrite - Optimising your PC for Audio on Windows 10 ](https://support.focusrite.com/hc/en-gb/articles/207355205-Optimising-your-PC-for-Audio-on-Windows-10)
