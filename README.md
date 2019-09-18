@@ -17,7 +17,7 @@ For example:
 
 If you don't have administrator priviledges, you will recieve a prompt.
 
-# What does it do?
+# What does the script do?
 
 ## Power
 * Adds a custom, high performance power plan
@@ -42,17 +42,17 @@ If you don't have administrator priviledges, you will recieve a prompt.
 * Disables automatic Windows Updates
 * TODO: Disable 'Windows updates from more than one place'
 
-# What next?
+# What else can I do?
 
 ## BIOS
-* Disabled Fast Boot/Fast Startup
-* Disaabled C-state transitions, Turbo Boost and SpeedStep
+* Disable Fast Boot/Fast Startup
+* Disable C-state transitions, Turbo Boost and SpeedStep
 * Disable hyper-threading
 * Disable spread sprectrum
 
 ## Audio drivers
-* Set bufer size to the highest possible settings
+* Set buffer size to the highest possible value (with acceptable latency)
 
 ## Network audio (i.e. Dante) drivers
 * Set the ASIO latency to the highest possible setting
-* Set the network audio driver latency to the highest possiblesetting
+* Set the network audio driver latency to the highest possible setting
