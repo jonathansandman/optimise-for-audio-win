@@ -59,3 +59,16 @@ If you don't have administrator priviledges, you will recieve a prompt.
 ## Network audio (i.e. Dante) drivers
 * Set the ASIO latency to the highest possible setting
 * Set the network audio driver latency to the highest possible setting
+
+# Further reading:
+
+The scripts here are derived from information from the following resources:
+
+* [Serato - PC Optimization Guide for Windows](https://support.serato.com/hc/en-us/articles/203057850-PC-Optimization-Guide-for-Windows-8)
+* [Focusrite - Optimising your PC for Audio on Windows 10 ](https://support.focusrite.com/hc/en-gb/articles/207355205-Optimising-your-PC-for-Audio-on-Windows-10)
+* [Universal Audio - Windows Optimization - Optional Settings](https://help.uaudio.com/hc/en-us/articles/214426026-Windows-Optimization-Optional-Settings)
+* [Ableton - Optimizing Windows for Audio](https://help.ableton.com/hc/en-us/articles/209071469-Optimizing-Windows-for-Audio)
+* [Avid - Windows 10 Optimizations and Troubleshooting](http://avid.force.com/pkb/articles/en_US/Troubleshooting/Windows-10-Guide)
+* [Audinate - How can I tune a windows PC for best audio performance?](https://www.audinate.com/faq/how-can-i-tune-windows-pc-best-audio-performance)
+* [Cantabile ‘Glitch Free’ guide](https://www.cantabilesoftware.com/glitchfree/)
+
