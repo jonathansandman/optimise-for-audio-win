@@ -20,7 +20,7 @@ If you don't have administrator priviledges, you will recieve a prompt.
 
 # What does the script do?
 
-The scripts provided are designed to automate some of the things that you can do to try and improve the performance of real-time and network audio. """optimise.bat""" script performs the following actions:
+The script provided is designed to automate some of the actions that improve performance of real-time and network audio. The optimise.bat script performs the following actions:
 
 ## Power
 * Add a custom, high performance power plan
