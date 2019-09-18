@@ -2,6 +2,8 @@
 A collection of scripts for optimising Windows 10 for real-time and network audio
 
 # optimise.bat
+> Warning: running this script will remove your existing Power Configurations
+
 To optimise Windows for real-time audio, simply run 'optimise.bat'.
 
 # start_realtime.bat
@@ -14,8 +16,6 @@ For example:
 `start_realtime.bat C:\Windows\notepad.exe`
 
 If you don't have administrator priviledges, you will recieve a prompt.
-
-> Warning: running this script will remove your existing Power Configurations
 
 # What does it do?
 
